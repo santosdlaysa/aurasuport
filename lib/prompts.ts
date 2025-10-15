@@ -129,8 +129,11 @@ const SITUATION_KEYWORDS = {
   family: ['família', 'pai', 'irmão', 'parente', 'casa', 'filhos'],
   work: ['trabalho', 'chefe', 'emprego', 'colega'],
   financial: ['dinheiro', 'financeira', 'dependente', 'trabalhar', 'sustentar'],
-  legal: ['denúncia', 'polícia', 'advogado', 'direitos', 'lei'],
-  support: ['ajuda', 'apoio', 'conversar', 'desabafar', 'orientação']
+  legal: ['denúncia', 'polícia', 'advogado', 'direitos', 'lei', 'orientação sobre meus direitos'],
+  support: ['ajuda', 'apoio', 'conversar', 'desabafar', 'orientação', 'apoio emocional'],
+  difficult: ['situação difícil', 'passando por', 'problema', 'não aguento'],
+  protection: ['proteger', 'proteção', 'medidas protetivas', 'segurança'],
+  resources: ['buscar ajuda', 'ajuda presencial', 'onde posso', 'recursos']
 };
 
 const RESPONSES = {
@@ -312,6 +315,271 @@ O que você sente que mais precisa neste momento: apoio emocional, informações
 • Mantenha documentos importantes organizados
 
 Estou aqui para conversar sobre qualquer coisa que você precisar. Como você está se sentindo hoje?`
+  ],
+
+  legal: [
+    `Que importante você buscar informações sobre seus direitos! Conhecer seus direitos é fundamental para se proteger e tomar decisões informadas.
+
+**Principais direitos garantidos pela Lei Maria da Penha:**
+• **Proteção policial** - Direito a medidas protetivas de urgência
+• **Afastamento do agressor** - Ele pode ser obrigado a sair de casa
+• **Proibição de aproximação** - Distância mínima determinada
+• **Suspensão de porte de armas** - Armas apreendidas do agressor
+• **Atendimento prioritário** - Na delegacia e órgãos públicos
+
+**Medidas protetivas que você pode solicitar:**
+• Suspensão ou restrição de visitas aos filhos
+• Prestação de alimentos provisórios
+• Restituição de bens indevidamente retirados
+• Encaminhamento para programa de proteção
+
+**Onde buscar:**
+• Delegacia da Mulher (presencial)
+• Central da Mulher: 180 (orientações)
+• Defensoria Pública (gratuito)
+• Juizado de Violência Doméstica
+
+**Documentos importantes:**
+• RG, CPF (seu e dos filhos)
+• Certidões (nascimento, casamento)
+• Comprovante de residência
+• Boletim de ocorrência (se houver)
+
+Você gostaria de saber mais sobre algum direito específico ou como solicitar medidas protetivas?`,
+
+    `Entendo que você quer se informar sobre seus direitos. Isso é muito importante e mostra que você está se empoderando!
+
+**Seus direitos fundamentais:**
+• **Direito à vida sem violência** - Protegido pela Constituição
+• **Direito à integridade física e psicológica**
+• **Direito à liberdade** - De ir, vir e tomar suas decisões
+• **Direito à dignidade e respeito**
+
+**O que a lei considera violência:**
+• **Física** - Tapas, empurrões, socos, qualquer agressão
+• **Psicológica** - Ameaças, humilhações, controle, isolamento
+• **Sexual** - Forçar relações ou práticas não desejadas
+• **Patrimonial** - Controlar dinheiro, destruir bens
+• **Moral** - Calúnia, difamação, injúria
+
+**Você pode:**
+• Registrar boletim de ocorrência
+• Solicitar medidas protetivas
+• Pedir ajuda à Defensoria Pública
+• Buscar atendimento psicossocial
+• Solicitar afastamento do agressor da casa
+
+**Importante saber:**
+• Não precisa de advogado para registro de ocorrência
+• Defensoria Pública é gratuita
+• Medidas protetivas podem ser deferidas em 48h
+• Você NÃO precisa provar agressões para pedir proteção
+
+Gostaria de orientações sobre como proceder em alguma situação específica?`
+  ],
+
+  difficult: [
+    `Reconheço que você está enfrentando um momento muito difícil. É corajoso da sua parte buscar apoio e compartilhar o que está acontecendo.
+
+**Lembre-se:**
+• Você não está sozinha nessa situação
+• O que você está sentindo é válido e compreensível
+• Há pessoas e recursos disponíveis para te ajudar
+• Você merece cuidado e respeito
+
+**Passos que podem ajudar:**
+• **Converse com alguém de confiança** - Amiga, familiar, terapeuta
+• **Documente** - Guarde provas (mensagens, fotos, áudios)
+• **Busque informações** - Sobre seus direitos e recursos
+• **Cuide de você** - Sua saúde física e emocional é prioridade
+
+**Apoio disponível:**
+• Central da Mulher: 180 (24h, orientação)
+• Mapa do Acolhimento (apoio psicológico gratuito)
+• Casas de acolhimento temporário
+• Grupos de apoio para mulheres
+
+**Se precisar de ajuda urgente:**
+• Emergência: 190
+• Delegacia da Mulher
+• Hospital/UPA (para atendimento e documentação)
+
+Você gostaria de conversar sobre o que especificamente está sendo mais difícil para você? Estou aqui para te ouvir e apoiar.`,
+
+    `Sinto muito que você esteja passando por isso. Situações difíceis podem nos fazer sentir perdidas, mas quero que saiba que há caminhos e pessoas dispostas a ajudar.
+
+**Validando seus sentimentos:**
+• É normal se sentir sobrecarregada
+• Confusão e medo são reações esperadas
+• Você está fazendo o melhor que pode
+• Cada pequeno passo conta
+
+**Avaliando sua situação:**
+• Você está em segurança física no momento?
+• Tem alguém de confiança para conversar?
+• Consegue identificar o que mais te preocupa?
+• Sente que precisa de ajuda imediata?
+
+**Recursos práticos:**
+• **Emocional**: Terapia, grupos de apoio
+• **Jurídico**: Defensoria Pública, OAB
+• **Social**: Assistente social, CRAS
+• **Financeiro**: Programas de auxílio governamentais
+
+**Lembre-se:**
+• Você não causou essa situação
+• Você merece ser feliz e segura
+• Pedir ajuda é sinal de força
+• Há saída, mesmo que agora não pareça
+
+Como posso te apoiar melhor? Você quer falar sobre aspectos específicos da sua situação ou prefere orientações práticas sobre o que fazer?`
+  ],
+
+  protection: [
+    `Excelente que você esteja pensando em sua proteção! Planejar sua segurança é fundamental e demonstra autocuidado.
+
+**Medidas Protetivas de Urgência:**
+São determinações judiciais que protegem você do agressor. Podem ser solicitadas na delegacia ou diretamente no Judiciário.
+
+**Tipos de medidas protetivas:**
+• **Proibição de aproximação** - Distância mínima (ex: 200m)
+• **Proibição de contato** - Por telefone, mensagem, e-mail
+• **Afastamento do lar** - Agressor sai de casa
+• **Restrição de visitas** - Aos filhos, com acompanhamento
+• **Suspensão de porte de armas**
+• **Prestação de alimentos** - Pensão provisória
+
+**Como solicitar:**
+1. Vá à Delegacia (de preferência Delegacia da Mulher)
+2. Registre boletim de ocorrência
+3. Solicite as medidas protetivas
+4. Juiz analisa em até 48h
+5. Medidas valem imediatamente após deferimento
+
+**Planejamento de segurança pessoal:**
+• Tenha documentos importantes sempre acessíveis
+• Deixe cópias com pessoa de confiança
+• Planeje rota de fuga segura
+• Identifique locais seguros (casa de familiar, abrigo)
+• Tenha contatos de emergência salvos
+• Considere palavra-código com pessoas próximas
+
+**Violação das medidas:**
+• É CRIME descumprir medida protetiva
+• Ligue 190 imediatamente se houver descumprimento
+• Registre todas as tentativas de contato
+
+**Apps que podem ajudar:**
+• PenhaS - botão de pânico e informações
+• Clique 180 - denúncia online
+
+Você gostaria de informações mais específicas sobre como solicitar medidas protetivas ou sobre planejamento de segurança?`,
+
+    `Proteger-se é fundamental e você está no caminho certo ao buscar essa informação!
+
+**Segurança imediata:**
+Se você está em perigo AGORA, ligue **190** imediatamente.
+
+**Plano de segurança:**
+**1. Em casa:**
+• Identifique cômodos mais seguros (com saída)
+• Evite cozinha e banheiro em discussões (objetos perigosos)
+• Deixe celular sempre carregado e acessível
+• Tenha chaves extras escondidas
+
+**2. Documentos:**
+• Separe: RG, CPF, certidões, comprovantes
+• Faça cópias e deixe com pessoa de confiança
+• Guarde dinheiro reserva se possível
+
+**3. Rede de apoio:**
+• Conte para pessoas de confiança
+• Combine sinais de perigo
+• Tenha endereços seguros identificados
+
+**4. Jurídico:**
+• Conheça a Delegacia da Mulher mais próxima
+• Saiba sobre medidas protetivas
+• Tenha números de emergência decorados
+
+**Recursos de proteção:**
+• **Casas abrigo** - Proteção temporária sigilosa
+• **Patrulha Maria da Penha** - Rondas policiais
+• **Botão do pânico** - Disponível em algumas cidades
+• **App PenhaS** - Botão de emergência digital
+
+**Medidas que você pode tomar:**
+• Não apague mensagens/áudios ameaçadores
+• Fotografe marcas de violência
+• Anote datas e horários de agressões
+• Busque testemunhas quando possível
+
+**Importante:**
+• Confie em seus instintos
+• Sua segurança vem primeiro
+• Você não está exagerando
+• Buscar proteção é seu direito
+
+Você está em situação de risco no momento ou está se planejando preventivamente?`
+  ],
+
+  resources: [
+    `Que ótimo que você está buscando recursos! Há uma rede de apoio disponível para te ajudar.
+
+**Ajuda Presencial - Rede de Atendimento:**
+
+**1. Delegacias Especializadas:**
+• **Delegacia da Mulher (DEAM)** - Atendimento especializado
+• Horário: varia por cidade (consulte sua região)
+• Serviço: B.O., medidas protetivas, orientações
+• **Delegacia comum** - Se DEAM não disponível
+
+**2. Serviços de Saúde:**
+• **UBS/Posto de Saúde** - Atendimento, documentação médica
+• **Hospital/UPA** - Emergências, exames, profilaxia
+• **CAPS** - Saúde mental
+• Todos são gratuitos pelo SUS
+
+**3. Assistência Social:**
+• **CRAS** - Centro de Referência de Assistência Social
+• **CREAS** - Especializado em violência
+• Serviços: apoio social, encaminhamentos, benefícios
+
+**4. Justiça:**
+• **Defensoria Pública** - Assistência jurídica gratuita
+• **Juizado de Violência Doméstica**
+• **Ministério Público**
+
+**5. Casas de Apoio:**
+• **Casas Abrigo** - Proteção temporária (endereço sigiloso)
+• **Casas de Acolhimento** - Apoio transitório
+• **Centros de Referência da Mulher**
+
+**Atendimento Online/Telefone:**
+• **180** - Central da Mulher (24h, gratuito)
+• **100** - Direitos Humanos
+• **Clique 180** - Denúncia online
+• **Mapa do Acolhimento** - Terapia online gratuita
+
+**Como encontrar serviços na sua cidade:**
+1. Ligue 180 e pergunte endereços
+2. Busque no site da prefeitura
+3. Procure "delegacia da mulher + [sua cidade]"
+4. Entre em contato com CRAS mais próximo
+
+**Documentos para levar:**
+• RG, CPF
+• Comprovante de residência
+• Documentos de filhos (se tiver)
+• B.O. anterior (se houver)
+
+**Organizações não-governamentais:**
+• Instituto Maria da Penha
+• Justiceiras
+• Think Olga
+• Coletivos locais
+
+Você está em qual cidade/região? Posso te ajudar a identificar os recursos mais próximos. Ou prefere orientação sobre qual serviço procurar primeiro?`
   ],
 
   general: [
