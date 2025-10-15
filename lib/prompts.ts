@@ -193,7 +193,7 @@ Você quer conversar sobre o que está causando esse medo?`,
 • Priorize sempre sua segurança
 
 **Recursos disponíveis:**
-• App PenhaS - botão de pânico
+• App de segurança - botão de pânico
 • Central da Mulher: 180
 • Delegacia da Mulher mais próxima
 
@@ -470,7 +470,7 @@ São determinações judiciais que protegem você do agressor. Podem ser solicit
 • Registre todas as tentativas de contato
 
 **Apps que podem ajudar:**
-• PenhaS - botão de pânico e informações
+• App de segurança - botão de pânico e informações
 • Clique 180 - denúncia online
 
 Você gostaria de informações mais específicas sobre como solicitar medidas protetivas ou sobre planejamento de segurança?`,
@@ -506,7 +506,7 @@ Se você está em perigo AGORA, ligue **190** imediatamente.
 • **Casas abrigo** - Proteção temporária sigilosa
 • **Patrulha Maria da Penha** - Rondas policiais
 • **Botão do pânico** - Disponível em algumas cidades
-• **App PenhaS** - Botão de emergência digital
+• **App de segurança** - Botão de emergência digital
 
 **Medidas que você pode tomar:**
 • Não apague mensagens/áudios ameaçadores

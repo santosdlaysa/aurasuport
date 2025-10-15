@@ -165,7 +165,7 @@ export default function Home() {
                   <ul className="text-xs sm:text-sm text-gray-700 space-y-3">
                     <li className="flex items-start bg-white/60 p-2.5 rounded-lg hover:bg-white transition-colors">
                       <span className="text-pink-500 mr-2 text-base">→</span>
-                      <span><strong className="text-pink-700">PenhaS:</strong> App de segurança para mulheres</span>
+                      <span><strong className="text-pink-700">App de segurança:</strong> App de segurança para mulheres</span>
                     </li>
                     <li className="flex items-start bg-white/60 p-2.5 rounded-lg hover:bg-white transition-colors">
                       <span className="text-pink-500 mr-2 text-base">→</span>
